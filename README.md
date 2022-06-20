@@ -14,6 +14,9 @@ Some of the DeFi-focused ideas that we're happy to discuss in a super secret git
 
 - A concentrated liquidity pool connected to an oracle so as to eliminate the need for active LP management
 - A lending protocol that supports arbitrary token to be used as collateral, and computes the LTV & deposit cap of each collateral dynamically by evaluating the amount of liquidity available from a set of compatible AMMs that are used for liquidation.
+- An on-chain exchange that aggregates liquidity from multiple CEX.
+ - That takes multiple blocks to settle
+ - That settles in the same block (no capital lockup)
 
 
 For all the ideas above, we actually know how to implement them. But there is no way we can do all of them on our own! If you want to learn more, find `mana | hippo` from Aptos' discord `dev-discussion` channel.
